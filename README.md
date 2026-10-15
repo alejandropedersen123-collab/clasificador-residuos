@@ -13,11 +13,26 @@ El notebook contiene la preparación de datos, entrenamiento, validación,
 evaluación, guardado del modelo y predicción de nuevas imágenes. **Todavía no
 hay un modelo entrenado ni métricas experimentales.**
 
-Se incluyen **12 imágenes de ejemplo, tres por clase**. Permiten comprobar
-la estructura y la lectura de imágenes, pero no permiten la división
-estratificada 70/15/15 configurada con las cuatro clases en cada partición.
-El notebook se detiene en ese punto hasta ampliar el dataset. No se debe
-interpretar este conjunto pequeño como una evaluación fiable del modelo.
+Se incluyen **212 imágenes, 53 por clase**: las 12 fotografías iniciales y
+**200 fotografías adicionales de TrashNet (50 por material)**. Se conservan
+las etiquetas originales: cardboard → carton, metal → metal,
+plastic → plastico y glass → vidrio. No se incluyen paper ni trash.
+
+| Material | Iniciales | Añadidas | Total |
+|---|---:|---:|---:|
+| Cartón | 3 | 50 | 53 |
+| Metal | 3 | 50 | 53 |
+| Plástico | 3 | 50 | 53 |
+| Vidrio | 3 | 50 | 53 |
+
+El conjunto permite la división estratificada 70/15/15: 148 imágenes de
+entrenamiento, 32 de validación y 32 de test. Es una base para un experimento
+inicial; **añadir imágenes no elimina el margen de error**. Todavía hay que
+entrenar, evaluar y comprobar la generalización con fotografías nuevas.
+TrashNet contiene tomas de envases parecidos y fondos poco variados. La
+revisión de hashes y similitud no certifica que sean objetos independientes.
+Antes de la evaluación definitiva, hay que agrupar las tomas del mismo
+objeto en una sola partición y recopilar una prueba externa independiente.
 
 ## Archivos
 
@@ -26,6 +41,10 @@ interpretar este conjunto pequeño como una evaluación fiable del modelo.
 - `dataset/`: imágenes organizadas en las cuatro clases.
 - `dataset/fuentes_carton.txt` y `dataset/fuentes_metal.txt`: autores,
   procedencia y licencias de las fotografías descargadas.
+- `dataset/fuentes_trashnet.txt`: fuente, selección y licencia MIT de las
+  200 nuevas imágenes.
+- `dataset/seleccion_trashnet.csv`: archivo original, clase, URL de origen,
+  dimensiones y SHA-256 de cada fotografía añadida.
 - `pruebas/entrega_companero_2026-10-15/`: originales aportados por el grupo.
   Las imágenes de papel permanecen fuera del dataset porque papel no es una
   de las cuatro clases. Las de plástico y vidrio duplican las incorporadas
@@ -64,8 +83,9 @@ Residuos**. También puedes abrir Jupyter desde la raíz del proyecto:
 
 ## Continuar el trabajo en grupo
 
-1. Ampliar el dataset con fotografías correctamente etiquetadas. Evitar que
-   fotos del mismo objeto o sesión aparezcan en distintas particiones.
+1. Revisar las etiquetas y las fotos del mismo objeto o sesión antes de
+   entrenar. Ampliar con objetos, fondos e iluminación diferentes; mantener
+   las fotos relacionadas dentro de una sola partición.
 2. Reiniciar el kernel y ejecutar desde el principio para comprobar el
    entorno, el dataset y la división en train, validación y test.
 3. Activar `ENTRENAR = True` cuando los datos estén preparados. La primera
@@ -81,6 +101,11 @@ La selección del dispositivo es automática.
 ## Procedencia de las imágenes
 
 Las fotografías de cartón y metal conservan las licencias indicadas en sus
-archivos de fuentes; mantén esas atribuciones al compartirlas. Las imágenes
-de plástico, vidrio y papel fueron aportadas por el grupo y no se les ha
-asignado una licencia adicional.
+archivos de fuentes; mantén esas atribuciones al compartirlas. Las seis
+fotografías iniciales de plástico y vidrio, y los originales de papel,
+fueron aportados por el grupo y no se les ha asignado una licencia adicional.
+
+Las 200 imágenes con prefijo `trashnet_` proceden de
+[TrashNet, de Gary Thung y Mindy Yang](https://github.com/garythung/trashnet),
+descargado desde el [dataset oficial](https://huggingface.co/datasets/garythung/trashnet).
+Se conserva su licencia y atribución en `dataset/fuentes_trashnet.txt`.

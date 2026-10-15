@@ -1,0 +1,57 @@
+AMPLIACIÓN DEL DATASET: TRASHNET
+Fecha de incorporación: 15 de octubre de 2026
+Autores del dataset: Gary Thung y Mindy Yang.
+Referencia: Thung, Gary y Yang, Mindy (2016). Classification of Trash for Recyclability Status. Stanford CS229.
+Repositorio original: https://github.com/garythung/trashnet
+Dataset oficial: https://huggingface.co/datasets/garythung/trashnet
+Archivo: https://huggingface.co/datasets/garythung/trashnet/resolve/94cd17ebfd6702bf62281d3c89f22ff649815b46/dataset-resized.zip
+SHA-256 del ZIP: c060e8abfe5d6de0578ca15be1ed8ad0794a865d333c3473d53d1d9ad6e38b8c
+
+Se han añadido 50 imágenes de cada categoría (200 en total):
+cardboard -> carton; metal -> metal; plastic -> plastico; glass -> vidrio.
+Las 12 imágenes anteriores se conservan: total 53 por clase y 212 imágenes.
+Las fotografías se copian sin modificar sus bytes, con prefijo trashnet_.
+El tamaño de 512 x 384 procede de la versión resized de los autores.
+El archivo seleccion_trashnet.csv registra las imágenes exactas y sus hashes.
+
+Selección: orden alfabético de rutas del ZIP, barajado con random.Random(42),
+recorriendo carton, metal, plastico y vidrio con el mismo generador.
+Lectura y decodificación verificadas con Pillow. Se comparó SHA-256 del
+archivo y de los píxeles RGB, dHash de 64 bits (distancia <= 4) y pHash de
+64 bits (distancia <= 6) con las imágenes previas y las ya seleccionadas.
+No hubo coincidencias con estos criterios en la selección de 200 fotos.
+Se revisaron hojas de contacto de las cuatro clases para detectar errores
+visuales evidentes. No se han corregido las etiquetas de los autores.
+
+Límites: estos controles no certifican que las fotos representen objetos
+independientes. Hay tomas de envases parecidos y fondos poco variados.
+La división automática por imagen es provisional: antes de evaluar el
+modelo final deben agruparse las tomas del mismo objeto/sesión y recopilar
+una prueba externa con objetos nuevos. 53 fotos por clase no eliminan el
+error ni sustituyen una evaluación real. No se ha entrenado todavía.
+
+Licencia indicada en la ficha oficial: MIT.
+Texto original de la licencia del repositorio:
+https://github.com/garythung/trashnet/blob/master/LICENSE
+
+MIT License
+
+Copyright (c) 2017 Gary Thung
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
