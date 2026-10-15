@@ -1,0 +1,39 @@
+FUENTES DE LAS TRES IMAGENES DE CARTON
+Descargadas el 15 de octubre de 2026 para el clasificador de residuos.
+Fotografias reales; no generadas por IA. Clase asignada: carton.
+Conservar estas atribuciones y los enlaces de licencia al compartir las fotos.
+Las licencias indicadas corresponden a cada imagen.
+Son ejemplos de cajas de carton; no se han reclasificado las fotos Paper del grupo.
+
+Archivo: carton/Carton 1.jpg
+Titulo original: Box.agr.jpg
+Autor: ArnoldReinhold (Arnold Reinhold)
+Licencia: CC BY-SA 3.0
+Enlace de licencia: https://creativecommons.org/licenses/by-sa/3.0/
+Fuente: https://commons.wikimedia.org/wiki/File:Box.agr.jpg
+Descarga: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Box.agr.jpg/960px-Box.agr.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail
+Cambios: version de 960 px proporcionada por Wikimedia. Sin ediciones adicionales.
+Resolucion: 960 x 759
+SHA-256: e7b1f1e6804ab689c7aba3e63c6feae1c5705557feb9bba66dc457dc3b3d2fc7
+
+Archivo: carton/Carton 2.jpg
+Titulo original: Small box, open.jpg
+Autor: Meathead Movers
+Licencia: CC BY-SA 2.0
+Enlace de licencia: https://creativecommons.org/licenses/by-sa/2.0/
+Fuente: https://commons.wikimedia.org/wiki/File:Small_box,_open.jpg
+Descarga: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Small_box%2C_open.jpg/960px-Small_box%2C_open.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail
+Cambios: version de 960 px proporcionada por Wikimedia. Sin ediciones adicionales.
+Resolucion: 960 x 812
+SHA-256: 8c9af6c54ec2873f63a77c67597143ee4a28d6a6e56e1e8a260bb4e75a8d3d60
+
+Archivo: carton/Carton 3.jpg
+Titulo original: Box for punch cards.jpg
+Autor: Tangopaso
+Licencia: Dominio publico por declaracion del autor
+Enlace de licencia: https://commons.wikimedia.org/wiki/File:Box_for_punch_cards.jpg#Licensing
+Fuente: https://commons.wikimedia.org/wiki/File:Box_for_punch_cards.jpg
+Descarga: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Box_for_punch_cards.jpg/960px-Box_for_punch_cards.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail
+Cambios: version de 960 px proporcionada por Wikimedia. Sin ediciones adicionales.
+Resolucion: 960 x 720
+SHA-256: e9575d8cbc4b5baa080d39f4b78d8afb9352fa182c15bad3454cd96a5cbea2c7

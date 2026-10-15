@@ -1,0 +1,38 @@
+FUENTES DE LAS TRES IMAGENES DE METAL
+Descargadas el 15 de octubre de 2026 para el clasificador de residuos.
+Fotografias reales; no generadas por IA. Clase asignada: metal.
+Conservar estas atribuciones y los enlaces de licencia al compartir las fotos.
+Las licencias indicadas corresponden a cada imagen.
+
+Archivo: metal/Metal 1.jpg
+Titulo original: Crushed Coke Can (3921080513).jpg
+Autor: Ian Muttoo
+Licencia: CC BY-SA 2.0
+Enlace de licencia: https://creativecommons.org/licenses/by-sa/2.0/
+Fuente: https://commons.wikimedia.org/wiki/File:Crushed_Coke_Can_(3921080513).jpg
+Descarga: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Crushed_Coke_Can_%283921080513%29.jpg/960px-Crushed_Coke_Can_%283921080513%29.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org
+Cambios: Version de 960 px proporcionada por Wikimedia. Sin ediciones adicionales.
+Resolucion: 960 x 638
+SHA-256: cc863d180a1dc0640c44fbd226c612dc44db115014818fc43318cb445d8a1ab4
+
+Archivo: metal/Metal 2.jpg
+Titulo original: Inside of a tin platted can.jpg
+Autor: Schtone
+Licencia: Dominio publico por declaracion del autor
+Enlace de licencia: https://commons.wikimedia.org/wiki/File:Inside_of_a_tin_platted_can.jpg#Licensing
+Fuente: https://commons.wikimedia.org/wiki/File:Inside_of_a_tin_platted_can.jpg
+Descarga: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Inside_of_a_tin_platted_can.jpg/960px-Inside_of_a_tin_platted_can.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org
+Cambios: Version de 960 px proporcionada por Wikimedia. Sin ediciones adicionales.
+Resolucion: 960 x 720
+SHA-256: 80ad5503b62b87904f3786933aeeaef025be1c272318c61d7ffe60a27fe94782
+
+Archivo: metal/Metal 3.jpg
+Titulo original: Empty tin can2009-01-19.jpg
+Autor: Sun Ladder
+Licencia: CC BY-SA 3.0
+Enlace de licencia: https://creativecommons.org/licenses/by-sa/3.0/
+Fuente: https://commons.wikimedia.org/wiki/File:Empty_tin_can2009-01-19.jpg
+Descarga: https://upload.wikimedia.org/wikipedia/commons/a/a8/Empty_tin_can2009-01-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original
+Cambios: Archivo original sin ediciones.
+Resolucion: 2592 x 3872
+SHA-256: ff44cf1b5eddb6f468b767be576bc837f8efb20eb881ed0512dbca8d7fe43093
