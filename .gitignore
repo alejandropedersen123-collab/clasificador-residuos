@@ -1,0 +1,24 @@
+# Entornos, caches y configuracion local
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+.idea/
+.env
+.env.*
+
+# Artefactos generados por el notebook
+modelos/
+resultados/
+*.pt
+*.pth
+*.ckpt
+*.zip
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
